@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         var temp=0
         temp=(Int)(x.text!)!+(Int)(y.text!)!
 
-        z.text="\(temp)22222222"
+        z.text="\(temp)66666666"
 
         
         
