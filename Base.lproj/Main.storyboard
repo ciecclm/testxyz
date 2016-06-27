@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="testxyz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dSH-pX-DD4"/>
+                        <viewControllerLayoutGuide type="bottom" id="G34-wh-blj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eq5-wZ-mGb">
+                                <rect key="frame" x="111" y="66" width="60" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PIs-ix-cJc">
+                                <rect key="frame" x="269" y="66" width="63" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Drp-Cj-Rll">
+                                <rect key="frame" x="277" y="223" width="46" height="30"/>
+                                <state key="normal" title="add"/>
+                                <connections>
+                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ket-Ec-eNQ"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x5C-yq-N56">
+                                <rect key="frame" x="455" y="66" width="63" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eq5-wZ-mGb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-219" id="839-hb-3ZG"/>
+                            <constraint firstItem="Drp-Cj-Rll" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jco-AK-SKZ"/>
+                            <constraint firstItem="PIs-ix-cJc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KqV-pH-64a"/>
+                            <constraint firstItem="x5C-yq-N56" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="186.5" id="TvJ-xx-QG2"/>
+                            <constraint firstItem="x5C-yq-N56" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-219" id="hBQ-T4-ai8"/>
+                            <constraint firstItem="Drp-Cj-Rll" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-62" id="lzb-61-Y0N"/>
+                            <constraint firstItem="PIs-ix-cJc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-219" id="qWt-4q-zbQ"/>
+                            <constraint firstItem="eq5-wZ-mGb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-159" id="xme-vr-EVW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="x" destination="eq5-wZ-mGb" id="jNn-JU-l6n"/>
+                        <outlet property="y" destination="PIs-ix-cJc" id="Hmm-BC-pl8"/>
+                        <outlet property="z" destination="x5C-yq-N56" id="Ytv-O1-Bkg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="375" y="586.26760563380276"/>
+        </scene>
+    </scenes>
+</document>
