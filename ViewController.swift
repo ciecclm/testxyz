@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBAction func add(sender: AnyObject) {
         var temp=0
         temp=(Int)(x.text!)!+(Int)(y.text!)!
-        z.text="\(temp)111111"
+        z.text="\(temp)22222222"
         
         
     }
