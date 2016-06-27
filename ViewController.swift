@@ -16,7 +16,11 @@ class ViewController: UIViewController {
     @IBAction func add(sender: AnyObject) {
         var temp=0
         temp=(Int)(x.text!)!+(Int)(y.text!)!
+<<<<<<< HEAD
         z.text="\(temp)44444444"
+=======
+        z.text="\(temp)22222222"
+>>>>>>> parent of c90a548... 3333333
         
         
     }
